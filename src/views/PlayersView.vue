@@ -9,7 +9,7 @@
           <td>{{ player }}</td>
         </tr>
       </tbody>
-    </table>
+    </table> 
   </main>
 </template>
 
