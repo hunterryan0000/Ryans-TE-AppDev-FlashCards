@@ -51,7 +51,8 @@ export default {
       const cardIndex = Math.floor(Math.random() * this.questions.length);
       this.question = this.questions.splice(cardIndex, 1)[0];
       const playerIndex = Math.floor(Math.random() * this.roster.length);
-      this.player = this.roster.splice(playerIndex, 1)[0];
+      //this.player = this.roster.splice(playerIndex, 1)[0];
+      this.player = this.roster[playerIndex];
       this.isDisplaying = true;
     },
     onFlip() {

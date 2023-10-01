@@ -3,28 +3,7 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     players: [
-      'Aaron Callaway',
-      'Alex Russell',
-      'Casey Hogan',
-      'Christopher Ratsabout',
-      'Clint Simmons',
-      'Hannah Schomaker',
-      'James Ximenez',
-      'Jansen Adkins',
-      'John Burgess',
-      'Kai Hall',
-      'Keaton Kido',
-      'Khalil Walker',
-      'Maher Nassri',
-      'Malak Alnemer',
-      'Matt Xiao',
-      'Michael Tarquini',
-      'Patrick Solomon',
-      'Shawn Chan',
-      'Shawn Ervin',
-      'Steven Diamantopoulos',
-      'Victoria Cao',
-      'Yune Kim',
+      'Ryan Hunter',
     ],
     questions: [
       {
